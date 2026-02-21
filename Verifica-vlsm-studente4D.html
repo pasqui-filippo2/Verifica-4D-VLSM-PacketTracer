@@ -1513,7 +1513,7 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
                     PC-Alfa1 > Command Prompt
                 </div>
                 <div class="code-body">
-<span class="cmd">C:\&gt;</span> ping <span class="placeholder">192.168.0.____</span>  <span class="comment">&lt;-- IP di PC-Beta1</span>
+<span class="cmd">C:\&gt;</span> ping <span class="placeholder">192.168.0.20</span>  <span class="comment">&lt;-- IP di PC-Beta1</span>
 
 <span class="output">Pinging 192.168.0.______ with 32 bytes of data:</span>
 
@@ -1541,7 +1541,7 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
     </div>
 
     <div class="img-placeholder">
-        
+        <img src="ping-pc-rete-diversa.png"/>
     </div>
 
     <h3>Analisi nella Simulation Mode del ping fallito</h3>
@@ -1564,9 +1564,7 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
     </div>
 
     <div class="img-placeholder">
-        <div class="icon">🚫</div>
-        <div class="label">[IMG_20] — Simulation Mode: il pacchetto da PC-Alfa1 verso PC-Beta1 viene scartato (X rossa)</div>
-        <div class="hint">Cattura la topologia in Simulation Mode mostrando la X rossa sul pacchetto scartato</div>
+        <img src="pdu-beta1.png"/>
     </div>
 
     <div class="step">
@@ -1583,9 +1581,7 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
     </div>
 
     <div class="img-placeholder">
-        <div class="icon">📋</div>
-        <div class="label">[IMG_21] — PDU Information del pacchetto scartato: motivo dello scarto</div>
-        <div class="hint">Cattura la finestra PDU che mostra il messaggio di errore o la spiegazione dello scarto</div>
+        <img src="errore.png"/>
     </div>
 
     <div class="exercise-box">
